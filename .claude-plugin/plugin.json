@@ -10,6 +10,5 @@
   "homepage": "https://github.com/wolfgang-bossle/ai-governance-sources",
   "repository": "https://github.com/wolfgang-bossle/ai-governance-sources",
   "license": "CC-BY-4.0",
-  "keywords": ["gdpr", "eu-ai-act"],
-  "icon": "icon.svg"
+  "keywords": ["gdpr", "eu-ai-act"]
 }

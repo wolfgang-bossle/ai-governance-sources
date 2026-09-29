@@ -12,7 +12,7 @@ compatibility: Requires code execution in claude.ai
 - `assets/obligations-eu-ai-act.md`: curated layer for the EU AI Act, same columns; the cross-reference names the point of Article 113 that sets the application date.
 - `references/gdpr/`: GDPR legal text, one file per chapter, table of contents at the top of each file.
 - `references/gdpr/recitals.md`: GDPR recitals, Official Journal version, not binding.
-- `references/eu-ai-act/`: EU AI Act legal text, one file per chapter, table of contents at the top of each file; annexes in `annexes.md`.
+- `references/eu-ai-act/`: EU AI Act legal text, one file per chapter, table of contents at the top of each file; annexes in `references/eu-ai-act/annexes.md`.
 - `references/eu-ai-act/recitals.md`: EU AI Act recitals, Official Journal version, not binding.
 
 ## Steps
