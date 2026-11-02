@@ -1,7 +1,7 @@
 {
   "name": "ai-governance-sources",
   "displayName": "AI Governance Sources",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Finds the GDPR and EU AI Act provisions that apply to a described situation, names who each provision obliges and quotes the wording from the bundled EUR-Lex text.",
   "author": {
     "name": "Bossle CPA",
@@ -9,10 +9,6 @@
   },
   "homepage": "https://github.com/wolfgang-bossle/ai-governance-sources",
   "repository": "https://github.com/wolfgang-bossle/ai-governance-sources",
-  "documentationUrl": "https://github.com/wolfgang-bossle/ai-governance-sources/blob/main/README.md",
-  "supportUrl": "https://github.com/wolfgang-bossle/ai-governance-sources#contact",
-  "privacyPolicyUrl": "https://github.com/wolfgang-bossle/ai-governance-sources/blob/main/PRIVACY.md",
-  "termsOfServiceUrl": "https://github.com/wolfgang-bossle/ai-governance-sources/blob/main/LICENSE",
   "license": "CC-BY-4.0",
   "keywords": ["gdpr", "eu-ai-act"]
 }
