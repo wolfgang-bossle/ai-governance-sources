@@ -27,6 +27,8 @@ For a described situation, the matching rows are looked up in the curated layer,
 
 ## What data it sends
 
+See the [Privacy Policy](PRIVACY.md) for data handling and platform controls.
+
 The plugin sends nothing, fetches nothing and stores nothing. It contains no scripts, no hooks and no server, only text files: the instructions, the curated layers and the legal text. To answer, the model reads these bundled files in the code execution environment, for example with `grep`. The plugin does not ask for personal data; if any is given, it is left out of the answer.
 
 ## Troubleshooting
