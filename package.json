@@ -1,0 +1,10 @@
+{
+  "name": "ai-governance-sources",
+  "version": "0.2.5",
+  "private": true,
+  "type": "module",
+  "license": "CC-BY-4.0",
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

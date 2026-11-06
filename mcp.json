@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "ai_governance_sources": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${PLUGIN_ROOT}/server/dist/index.js"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

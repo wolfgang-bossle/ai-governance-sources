@@ -1,0 +1,32 @@
+{
+  "name": "ai-governance-sources",
+  "version": "0.2.5",
+  "description": "Finds provisions, addressees and original wording in the retrieved GDPR and EU AI Act sources through the plugin's local MCP server.",
+  "author": {
+    "name": "Bossle CPA",
+    "email": "plugin@bossle.de"
+  },
+  "homepage": "https://github.com/wolfgang-bossle/ai-governance-sources",
+  "repository": "https://github.com/wolfgang-bossle/ai-governance-sources",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "gdpr",
+    "eu-ai-act"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json",
+  "interface": {
+    "displayName": "AI Governance Sources",
+    "shortDescription": "AI Governance Sources",
+    "longDescription": "Finds provisions, addressees and original wording in the retrieved GDPR and EU AI Act sources through the plugin's local MCP server.",
+    "developerName": "Bossle CPA",
+    "websiteURL": "https://github.com/wolfgang-bossle/ai-governance-sources",
+    "supportURL": "https://github.com/wolfgang-bossle/ai-governance-sources#contact",
+    "privacyPolicyURL": "https://github.com/wolfgang-bossle/ai-governance-sources/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/wolfgang-bossle/ai-governance-sources/blob/main/LICENSE",
+    "logo": "./.claude-plugin/icon.svg",
+    "composerIcon": "./.claude-plugin/icon.svg",
+    "category": "Business & Operations",
+    "capabilities": []
+  }
+}
