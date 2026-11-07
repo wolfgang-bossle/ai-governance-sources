@@ -1,7 +1,7 @@
 {
   "name": "ai-governance-sources",
   "displayName": "AI Governance Sources",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Finds provisions, addressees and original wording in the retrieved GDPR and EU AI Act sources.",
   "author": {
     "name": "Bossle CPA",
