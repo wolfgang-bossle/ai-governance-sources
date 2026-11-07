@@ -1,7 +1,6 @@
 ---
 name: finding-obligations
-description: "Finds provisions, addressees and original wording in the retrieved GDPR and EU AI Act sources through the plugin's local MCP server. Use only for general research questions about obligations, responsible roles or legal references concerning AI systems or AI governance, even when no law is named. An explicit or implicit AI connection is required; ordinary software, personal data or outsourcing alone is insufficient. Reports what the included sources say without assessing individual circumstances or assigning legal roles or obligations to the user. Does not review user documents or provide legal advice."
-compatibility: Requires Node.js LTS and a plugin host that supports the bundled local stdio MCP server.
+description: "Finds provisions, addressees and original wording in the retrieved GDPR and EU AI Act sources. Use only for general research questions about obligations, responsible roles or legal references concerning AI systems or AI governance, even when no law is named. An explicit or implicit AI connection is required; ordinary software, personal data or outsourcing alone is insufficient. Reports what the included sources say without assessing individual circumstances or assigning legal roles or obligations to the user. Does not review user documents or provide legal advice."
 ---
 
 # Finding obligations
@@ -10,11 +9,27 @@ compatibility: Requires Node.js LTS and a plugin host that supports the bundled 
 
 The plugin includes GDPR and EU AI Act legal texts and curated obligation entries. The curated entries identify obligations, addressees, provisions and cross-references.
 
-Access these sources through the local MCP tools:
+On ChatGPT and Codex, access these sources through the local MCP tools:
 - `search_sources` finds provisions and curated entries.
 - `get_provision` retrieves a complete provision and its available curated entries.
 
 Use the source language, version and original-source link returned by the tools. Search excerpts are for orientation; retrieve the complete provision before using it in an answer. The reported source version does not establish that the source is currently up to date.
+
+## Source access by host
+
+In ChatGPT and Codex, use the bundled local MCP tools and the existing Steps
+below. A missing or failing MCP is an access error; do not switch to direct
+web retrieval on these hosts.
+
+In Claude, use [Direct source access](workflows/direct-sources.md). Do not use
+or start the bundled MCP server. That workflow replaces Steps 3–5 and the
+MCP-specific retrieval checks in Steps 6 and 9. Apply all other research
+boundaries, quotation rules, answer-format requirements and fixed notices.
+For this path, references below to tool results or complete `get_provision`
+results mean the complete original provisions actually retrieved from the
+pinned GitHub source files. Cursor and pagination instructions apply only to
+the MCP path. If the host cannot be identified, report the limitation and stop.
+
 
 ## Steps
 

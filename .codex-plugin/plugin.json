@@ -1,6 +1,6 @@
 {
   "name": "ai-governance-sources",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Finds provisions, addressees and original wording in the retrieved GDPR and EU AI Act sources through the plugin's local MCP server.",
   "author": {
     "name": "Bossle CPA",
